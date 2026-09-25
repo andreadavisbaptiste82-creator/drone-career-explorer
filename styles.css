@@ -2333,3 +2333,22 @@ img{max-width:100%;height:auto}
 
 /* 8. Part 108 resource cards (five items: P108-01 to P108-05). */
 .professional-resource-grid{grid-template-columns:repeat(auto-fit,minmax(215px,1fr))!important}
+
+/* 9. Maison card: clickable areas measured from the buttons drawn in the image. */
+.maison-exact-card .maison-hotspot-primary{left:4.1%!important;top:78.0%!important;width:42.0%!important;height:12.0%!important}
+.maison-exact-card .maison-hotspot-secondary{left:48.0%!important;top:78.0%!important;width:22.0%!important;height:12.0%!important}
+
+/* 10. Future Ready AI photo card (home page): fill the card, whole card is the link. */
+html body .exact-brand-map .future-ready-exact-card.future-ready-photo-card>img{object-fit:contain!important;object-position:50% 100%!important;background:transparent!important}
+
+html body .exact-brand-map .future-ready-exact-card.future-ready-photo-card{background:linear-gradient(90deg,rgb(244,243,238) 0%,rgb(247,242,238) 10%,rgb(246,243,237) 20%,rgb(247,243,236) 30%,rgb(245,243,237) 40%,rgb(244,242,236) 50%,rgb(245,243,236) 60%,rgb(244,242,235) 70%,rgb(246,242,235) 80%,rgb(244,234,218) 90%,rgb(244,234,217) 100%)!important}
+
+/* 11. Future Ready AI photo card buttons (sit in the cream sky strip above the photo). */
+html body .future-ready-photo-card{container-type:inline-size}
+.fr-card-actions{position:absolute;z-index:4;left:4.2%;top:5.2%;display:flex;gap:1.6cqw;align-items:center}
+.fr-btn{display:inline-flex;align-items:center;gap:.55em;white-space:nowrap;text-decoration:none!important;font-family:Inter,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:700;font-size:clamp(11px,2.25cqw,15.5px);line-height:1;padding:.85em 1.25em;border-radius:.6em;transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.fr-btn-primary{background:#f2c35a;color:#10141c!important;box-shadow:0 6px 16px rgba(120,80,10,.22)}
+.fr-btn-primary:hover{background:#f7cf6f;transform:translateY(-1px)}
+.fr-btn-secondary{background:#0b2e52;color:#fff!important;border:1.5px solid #0b2e52}
+.fr-btn-secondary:hover{background:#12406f;transform:translateY(-1px)}
+.fr-btn:focus-visible{outline:3px solid #2ac4c0;outline-offset:3px}

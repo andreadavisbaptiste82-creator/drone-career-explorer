@@ -2,8 +2,8 @@
 // Update these values in one place before launch if a destination changes.
 window.DCE_SITE_LINKS = {
   futureReadyAI: "https://andreadavisbaptiste82-creator.github.io/future-ready-ai/",
-  maisonSite: "https://maisonglamouretgrace.com/",
-  maisonContact: "https://maisonglamouretgrace.com/contact.html",
+  maisonSite: "https://www.maisonglamouretgrace.com/",
+  maisonContact: "https://www.maisonglamouretgrace.com/contact",
   linkedinCompany: "https://www.linkedin.com/company/143038482/",
   contactEmail: "mailto:andrea@maisonglamouretgrace.com",
   contactPhone: "tel:+17086898869"
