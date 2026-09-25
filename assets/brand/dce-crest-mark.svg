@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 92" role="img" aria-label="Drone Career Explorer winged crest">
+<g fill="none" stroke="#F5B72E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M51 28 26 18l8 13-18-4 10 12-15 4c14 8 26 13 43 14"/>
+  <path d="M89 28 114 18l-8 13 18-4-10 12 15 4c-14 8-26 13-43 14"/>
+  <path d="M70 7 93 16v27c0 18-11 29-23 35-12-6-23-17-23-35V16z"/>
+  <circle cx="70" cy="37" r="5"/><path d="M70 32V21M65 34l-13-9M75 34l13-9M65 40l-13 9M75 40l13 9"/>
+  <circle cx="52" cy="25" r="3"/><circle cx="88" cy="25" r="3"/><circle cx="52" cy="49" r="3"/><circle cx="88" cy="49" r="3"/>
+</g>
+</svg>
