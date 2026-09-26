@@ -6,7 +6,8 @@ window.DCE_SITE_LINKS = {
   maisonContact: "https://www.maisonglamouretgrace.com/contact",
   linkedinCompany: "https://www.linkedin.com/company/143038482/",
   contactEmail: "mailto:andrea@maisonglamouretgrace.com",
-  contactPhone: "tel:+17086898869"
+  contactPhone: "tel:+17086898869",
+  calendlyDiscovery: "https://calendly.com/andrea-maisonglamouretgrace/discovery-call"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
