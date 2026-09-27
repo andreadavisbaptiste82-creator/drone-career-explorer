@@ -2479,3 +2479,175 @@ url('assets/studio-hero-expanded.jpg') center/cover no-repeat;border-bottom:1px 
   .contact-form-grid.two,.contact-interest-grid,.contact-service-grid,.contact-next-grid{grid-template-columns:1fr}
   .contact-service-grid>div{border-right:0}
 }
+
+
+/* ==========================================================
+   APPROVED PHOTO LAYOUT LOCK — 2026-09-26
+   Uses assets/brand/dce-andrea-approved.png exactly as supplied.
+   Do not regenerate or substitute the portrait.
+   ========================================================== */
+
+/* Homepage: preserve the approved dark editorial layout while showing the
+   full approved scene on the right instead of cropping it as a portrait. */
+.dce-final-hero{
+  background:
+    linear-gradient(90deg,#03131f 0%,#03131f 43%,rgba(3,19,31,.96) 48%,rgba(3,19,31,.38) 66%,rgba(3,19,31,.12) 100%),
+    url('assets/brand/dce-andrea-approved.png') right center/auto 100% no-repeat!important;
+}
+.dce-final-hero-grid{
+  grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr)!important;
+  min-height:640px!important;
+}
+.dce-home-portrait-shell{
+  visibility:hidden!important;
+  pointer-events:none!important;
+  height:560px!important;
+}
+.dce-final-hero-copy{
+  max-width:720px;
+  padding-right:18px;
+}
+.dce-final-hero-copy h1{
+  max-width:690px!important;
+  font-size:clamp(3rem,4.65vw,5rem)!important;
+}
+.dce-final-hero-copy>p{
+  max-width:650px!important;
+}
+.dce-hero-actions{
+  max-width:680px;
+}
+.dce-learning-steps{
+  max-width:680px;
+}
+.dce-audience-strip{
+  max-width:680px;
+}
+
+/* Keep the pathway map legible and aligned with the approved cream + navy
+   treatment. This fixes the white-on-cream conflict seen in the live site. */
+.home-final .pathway-section{
+  background:#f7f1e6!important;
+  color:#0b2238!important;
+}
+.home-final .pathway-section .section-heading h2{
+  color:#0b2238!important;
+}
+.home-final .pathway-section .section-heading p{
+  color:#4b606c!important;
+}
+.home-final .pathway-section .pathway-panel{
+  background:linear-gradient(180deg,#08263b,#031522)!important;
+  color:#eef5f8!important;
+  border:1px solid rgba(18,133,157,.42)!important;
+  box-shadow:0 14px 34px rgba(4,24,37,.10);
+}
+.home-final .pathway-section .pathway-panel h3,
+.home-final .pathway-section .pathway-panel .pathway-symbol,
+.home-final .pathway-section .pathway-panel .pathway-outcome span{
+  color:#f6f8fa!important;
+}
+.home-final .pathway-section .pathway-panel p{
+  color:#c8d5dc!important;
+}
+.home-final .pathway-section .pathway-panel .pathway-kicker,
+.home-final .pathway-section .pathway-panel .pathway-outcome b,
+.home-final .pathway-section .pathway-panel .panel-link{
+  color:#45dbe4!important;
+}
+
+/* Contact hero: slimmer, same exact image, no oval crop and no duplicate face. */
+.contact-final-hero{
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(90deg,#fff8e9 0%,#fff8e9 48%,rgba(255,248,233,.92) 56%,rgba(255,248,233,.10) 76%,rgba(255,248,233,0) 100%),
+    url('assets/brand/dce-andrea-approved.png') right 43%/auto 118% no-repeat!important;
+  border-bottom:1px solid #e5d5b2!important;
+}
+.contact-final-hero-grid{
+  grid-template-columns:minmax(0,1fr) minmax(360px,.72fr)!important;
+  min-height:330px!important;
+  padding-top:30px!important;
+  padding-bottom:30px!important;
+}
+.contact-final-copy{
+  position:relative;
+  z-index:2;
+  max-width:760px;
+}
+.contact-final-copy h1{
+  max-width:700px;
+  font-size:clamp(2.65rem,4vw,4.2rem)!important;
+}
+.contact-final-copy p{
+  max-width:690px!important;
+}
+.dce-contact-portrait-shell{
+  visibility:hidden!important;
+  pointer-events:none!important;
+  height:270px!important;
+}
+
+/* Discovery-call photo: crop from the same locked source, not another image. */
+.discovery-profile-photo{
+  width:68px!important;
+  height:68px!important;
+  flex-basis:68px!important;
+}
+.discovery-profile-photo img{
+  width:235%!important;
+  height:145%!important;
+  left:-78%!important;
+  top:-5%!important;
+  object-fit:cover!important;
+  object-position:58% 18%!important;
+}
+
+/* Tighter contact page proportions to match the approved preview. */
+.contact-service-grid{
+  padding-top:18px!important;
+  padding-bottom:18px!important;
+}
+.contact-final-main{
+  padding:38px 0!important;
+}
+.contact-form-panel{
+  padding:30px!important;
+}
+.contact-next-steps{
+  padding:28px 0 34px!important;
+}
+
+@media(max-width:900px){
+  .dce-final-hero{
+    background:
+      linear-gradient(180deg,rgba(3,19,31,.50),#03131f 58%),
+      url('assets/brand/dce-andrea-approved.png') 64% top/cover no-repeat!important;
+  }
+  .dce-final-hero-grid{
+    grid-template-columns:1fr!important;
+    padding-top:360px!important;
+    min-height:0!important;
+  }
+  .dce-home-portrait-shell{display:none!important}
+
+  .contact-final-hero{
+    background:
+      linear-gradient(180deg,rgba(255,248,233,.18),#fff8e9 54%),
+      url('assets/brand/dce-andrea-approved.png') 62% top/cover no-repeat!important;
+  }
+  .contact-final-hero-grid{
+    grid-template-columns:1fr!important;
+    padding-top:300px!important;
+    min-height:0!important;
+  }
+  .dce-contact-portrait-shell{display:none!important}
+}
+
+@media(max-width:620px){
+  .dce-final-hero-grid{padding-top:285px!important}
+  .contact-final-hero-grid{padding-top:240px!important}
+  .dce-final-hero-copy h1{font-size:clamp(2.5rem,13vw,3.7rem)!important}
+  .contact-final-copy h1{font-size:2.55rem!important}
+}
