@@ -2669,3 +2669,27 @@ body.home-final .continuation-main .continuation-section.pathway-section .eyebro
   color:#167C87!important;
   font-weight:800!important;
 }
+
+
+/* ==========================================================
+   DISCOVERY PROFILE PHOTO CROP FIX — 2026-09-26
+   Use the approved Andrea image without distortion or sliver cropping.
+   ========================================================== */
+.discovery-profile-photo{
+  width:72px!important;
+  height:72px!important;
+  flex:0 0 72px!important;
+  overflow:hidden!important;
+  border-radius:50%!important;
+  background:#f3ead8!important;
+}
+.discovery-profile-photo img{
+  position:static!important;
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover!important;
+  object-position:60% 18%!important;
+  transform:none!important;
+  max-width:none!important;
+}
