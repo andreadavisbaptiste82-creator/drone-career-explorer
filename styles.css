@@ -2651,3 +2651,21 @@ url('assets/studio-hero-expanded.jpg') center/cover no-repeat;border-bottom:1px 
   .dce-final-hero-copy h1{font-size:clamp(2.5rem,13vw,3.7rem)!important}
   .contact-final-copy h1{font-size:2.55rem!important}
 }
+
+
+/* ==========================================================
+   PATHWAY LIGHT-SURFACE TEXT FIX — 2026-09-26
+   Overrides the older dark-section rule on the cream pathway map.
+   ========================================================== */
+body.home-final .continuation-main .continuation-section.pathway-section .section-heading h2{
+  color:#0B2238!important;
+  font-weight:800!important;
+}
+body.home-final .continuation-main .continuation-section.pathway-section .section-heading p{
+  color:#435765!important;
+  font-weight:500!important;
+}
+body.home-final .continuation-main .continuation-section.pathway-section .eyebrow{
+  color:#167C87!important;
+  font-weight:800!important;
+}
